@@ -84,6 +84,16 @@ h1, h3, h4, h5, h6{
     margin: auto;
 }
 
+#p3{
+    width: 370px;
+    margin: auto;
+}
+
+#pizza{
+    width: 140px;
+    display: inline-block;
+}
+
 #lasanha{
     display: inline-block;
     width: 140px;
@@ -112,12 +122,6 @@ iframe{
     display: inline-block;
 }
 
-#p1 img{
-    top: 384px;
-    left: 270px;
-    border-radius: 10px;
-    position: absolute;
-}
 
 #p2 h2 > span{
     font-size: 14px;
@@ -130,4 +134,28 @@ iframe{
 
 #massa iframe{
     margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #2C7EF4;
+    height: 150px;
+}
+
+footer h2{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-align: center;
+}
+
+footer a:hover{
+    color: black;
+    letter-spacing: 1px;
+    transition: all 0.8s;
 }
