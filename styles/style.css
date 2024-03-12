@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: 'title';
-    src: url(../fontes/BebasKai.ttf);
+    src: url(../font/BebasKai.ttf);
 }
 
 @font-face {
     font-family: 'text';
-    src: url(../fontes/Quicksand_Book.otf);
+    src: url(../font/Quicksand_Book.otf);
 }
 
 body{
     width: 100%;
-    background-image: url(../imagens/cm-bckg.png);
+    background-image: url(../image/cm-bckg.png);
     background-size: cover;
 }
 
